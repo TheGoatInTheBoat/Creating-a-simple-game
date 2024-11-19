@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
-        if(Input.GetKey(KeyCode.Space) && grounded){
+        if(Input.GetKeyDown(KeyCode.Space) && grounded){
             Jump();
         }
         anim.SetBool("grounded", grounded);
