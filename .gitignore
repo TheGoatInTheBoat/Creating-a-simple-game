@@ -58,6 +58,7 @@ ExportedObj/
 *.pdb.meta
 *.mdb.meta
 *ProjectVersion.txt
+*SampleScene.unity
 
 
 # Unity3D generated file on crash reports
